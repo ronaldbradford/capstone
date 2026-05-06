@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fairfield University Capstone Project</title>
+  <link rel="icon" href="favicon.ico">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      background-color: #f5f5f0;
+      color: #222;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      background-color: #8b0000;
+      width: 100%;
+      padding: 24px 40px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    header img {
+      height: 80px;
+      width: auto;
+    }
+
+    header h1 {
+      color: #fff;
+      font-size: 1.8rem;
+      font-weight: bold;
+      letter-spacing: 0.02em;
+    }
+
+    header h2 {
+      color: #f0c0c0;
+      font-size: 1rem;
+      font-weight: normal;
+      font-style: italic;
+      margin-top: 6px;
+    }
+
+    main {
+      max-width: 800px;
+      width: 100%;
+      padding: 48px 24px;
+    }
+
+    .description {
+      font-size: 1.05rem;
+      line-height: 1.75;
+      color: #444;
+      margin-bottom: 40px;
+      border-left: 4px solid #8b0000;
+      padding-left: 20px;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      color: #8b0000;
+      margin-bottom: 20px;
+    }
+
+    .downloads {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .download-card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    }
+
+    .download-card .info h3 {
+      font-size: 1rem;
+      margin-bottom: 4px;
+    }
+
+    .download-card .info p {
+      font-size: 0.875rem;
+      color: #666;
+    }
+
+    .download-card a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background-color: #8b0000;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      white-space: nowrap;
+      transition: background-color 0.2s;
+    }
+
+    .download-card a:hover {
+      background-color: #6a0000;
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 24px;
+      font-size: 0.8rem;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.jpg" alt="Fairfield University Logo">
+    <div>
+      <h1>Fairfield University Capstone Project</h1>
+      <h2>GenAI Under Attack: Evaluating Enterprise Security Gaps Against Emerging AI Threat Vectors</h2>
+    </div>
+  </header>
+
+  <main>
+    <p class="description">
+      This capstone project explores modern application security practices with a focus on
+      identifying, understanding, and mitigating common vulnerabilities. The research examines
+      real-world threat landscapes and provides actionable guidance grounded in industry
+      frameworks. The work below represents the culmination of graduate-level study in
+      cybersecurity and software engineering.
+    </p>
+
+    <h2>Project Documents</h2>
+    <div class="downloads">
+
+      <div class="download-card">
+        <div class="info">
+          <h3>Abstract</h3>
+          <p>A concise summary of the capstone project scope, methodology, and conclusions.</p>
+        </div>
+        <a href="abstract.pdf" download>
+          &#8595; Download PDF
+        </a>
+      </div>
+
+
+      <div class="download-card">
+        <div class="info">
+          <h3>OWASP Top 10</h3>
+          <p>Reference document covering the OWASP Top 10 most critical web application security risks.</p>
+        </div>
+        <a href="OWASP.pdf" download>
+          &#8595; Download PDF
+        </a>
+      </div>
+
+      <div class="download-card">
+        <div class="info">
+          <h3>White Paper Excerpt</h3>
+          <p>An excerpt from the full capstone white paper summarizing key findings and recommendations.</p>
+        </div>
+        <a href="except.pdf" download>
+          &#8595; Download PDF
+        </a>
+      </div>
+
+
+      <div class="download-card">
+        <div class="info">
+          <h3>Poster</h3>
+          <p>Visual poster presentation of the capstone project prepared for the graduate symposium.</p>
+        </div>
+        <a href="poster.pdf" download>
+          &#8595; Download PDF
+        </a>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2026 Fairfield University Capstone Project
+  </footer>
+
+</body>
+</html>
